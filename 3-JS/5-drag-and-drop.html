@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .draggable {
+            width: 100px;
+            height: 100px;
+            background-color: #3498db;
+            margin: 10px;
+            cursor: move;
+        }
+    </style>
+    <script src="./5-drag-and-drop.js"></script>
+</head>
+<body>
+    <h1>Drag and Drop Example</h1>
+    <div id="container" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <div id="draggable1" class="draggable" draggable="true" ondragstart="dragStart(event)"></div>
+        <div id="draggable2" class="draggable" draggable="true" ondragstart="dragStart(event)"></div>
+    </div>
+</body>
+</html>
+
+

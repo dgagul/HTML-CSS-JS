@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .greeting {
+            font-size: 24px;
+            color: green;
+            transform: scale(0);
+            transition: transform 0.5s ease-in-out;
+        }
+    </style>
+</head>
+<body>
+    
+    <!-- Hier ist das Formular -->
+    <form id="myForm">
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <div id="greetingMessage" class="greeting"></div>
+
+    <script src="JS/script.js"></script>
+</body>
+</html>
+
